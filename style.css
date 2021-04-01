@@ -681,10 +681,10 @@
 }
 
 #wave {
-	width: 230px;
+	width: 221px;
 	height: 100px;
 	/*background-color: orange;*/
-	background-image: url(assets/img/Risorsa7.png)  no-repeat ;
+	background-image: url(assets/img/Risorsa8-80.jpg)  no-repeat ;
 }
 
 .icon {
@@ -707,17 +707,16 @@
 	cursor: pointer;
 }	
 
-#microphone-on.png {
-	width: 30px;
-	height: 30px;
+
+
+#speaker_a{
+	margin-top: 80px;
 }
 
-#microphone-off.png {
-	width: 30px;
-	height: 30px;
+#speaker_b{
+	margin-top: 80px;
+	margin-left: none;
 }
-
-
 /*FOOTER*/
 
 footer {

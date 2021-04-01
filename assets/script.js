@@ -12,13 +12,13 @@ function walkie_talkie(){
 	button_a.addEventListener('click',function (){
 		console.log("click su button a");
 
-		speaker_a.style.background = "url('assets/img/microphone-on.png') no-repeat right top";
+		speaker_a.style.background = "url('assets/img/on.png') no-repeat right top";
 		speaker_a.style.opacity = 1;
 
-		speaker_b.style.background = "url('assets/img/microphone-off.png') no-repeat right top";
+		speaker_b.style.background = "url('assets/img/off.png') no-repeat right top";
 		speaker_b.style.opacity = 1;
 
-		wave.style.background = "red";
+		wave.style.background = "url('assets/img/wavetoright.jpg')";
 
 		button_a.innerHTML = "ON";
 		button_b.innerHTML = "OFF";
@@ -27,13 +27,13 @@ function walkie_talkie(){
 	button_b.addEventListener('click',function (){
 		console.log("click su button b");
 
-		speaker_b.style.background = "url('assets/img/microphone-on.png') no-repeat right top";
+		speaker_b.style.background = "url('assets/img/on.png') no-repeat right top";
 		speaker_b.style.opacity = 1;
 
-		speaker_a.style.background = "url('assets/img/microphone-off.png') no-repeat right top";
+		speaker_a.style.background = "url('assets/img/off.png') no-repeat right top";
 		speaker_a.style.opacity = 1;
 
-		wave.style.background = "green";
+		wave.style.background = "url('assets/img/wavetoleft.jpg')";
 
 		button_b.innerHTML = "ON";
 		button_a.innerHTML = "OFF";
@@ -42,13 +42,13 @@ function walkie_talkie(){
 	passo_chiudo.addEventListener('click',function (){
 		console.log("click su button passo_chiudo");
 
-		speaker_b.style.background = "url('assets/img/microphone-on.png') no-repeat right top";
+		speaker_b.style.background = "url('assets/img/on.png') no-repeat right top";
 		speaker_b.style.opacity = 0;
 
-		speaker_a.style.background = "url('assets/img/microphone-off.png') no-repeat right top";
+		speaker_a.style.background = "url('assets/img/off.png') no-repeat right top";
 		speaker_a.style.opacity = 0;
 
-		wave.style.background = "url('assets/img/onda-piatta.png')" ;
+		wave.style.background = "url('assets/img/Risorsa8-80.jpg')" ;
 
 		button_b.innerHTML = "click me";
 		button_a.innerHTML = "click me";
