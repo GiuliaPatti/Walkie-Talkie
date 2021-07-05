@@ -241,9 +241,11 @@
 
 		.Cella7 {
 			grid-column: 1/7;
-			text-align: center;
+			text-align: left;
 			/*margin-left: 20px;*/
 			width: 800px;
+			margin-top: -50px;
+			padding-bottom: 20px;
 
 		}
 
